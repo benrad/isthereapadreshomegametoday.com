@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<script>
+	 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-62976891-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:800,400' rel='stylesheet' type='text/css'>
+	<title>Your afternoon parking garage forecast</title>
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"></META>
+	<style>
+
+    #wrap {min-height: 100%;}
+
+    #main {overflow:auto;
+        padding-bottom: 20px;}  /* must be same height as the footer */
+
+    #footer {position: relative;
+        margin-top: -20px; /* negative value of footer height */
+        height: 20px;
+        clear:both;} 
+
+	html {
+        height: 100%;
+		display: table;
+		margin: auto;
+	}
+
+	body {
+        height: 100%;
+		display: table-cell;
+		color: #FCFCFC;
+	}
+
+	h1 {
+        color:#333333;
+        font-family:'Open Sans', sans-serif;
+        font-size:160px;
+        font-weight:800;
+        text-align:	center;
+        }
+    h2 {
+    	color:#333333;
+        font-family:'Open Sans', sans-serif;
+        font-size:30px;
+        font-weight: 400;
+        text-align: center;
+    }
+    h3 {
+    	color:#333333;
+        font-family:'Open Sans', sans-serif;
+        font-size:10px;
+        font-weight: 400;
+        text-align: center;
+    }
+    h4 {
+        color:#333333;
+        font-family:'Open Sans', sans-serif;
+        font-size:5px;
+        font-weight: 400;
+        text-align: center;
+    }    
+    a:link {color:#333333;}
+    a:visited {color:#333333;}
+    a:hover {color:#56B68B;}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="main">
+            <h1>{{ areTheyPlaying }}</h1>
+            <h2>{{ day }}</h2>
+            <h3>{{ wittyPhrase }}</h3>
+            <h3>It takes so long to load a webpage. Get a <a href="http://isthereapadreshomegametoday.com/slack">Slack notification</a> instead.</h3>
+        </div>
+    </div>
+    <div id="footer">
+        <h4>This site is not endorsed or authorized by, nor affiliated with, the MLB or the San Diego Padres.</h4>
+    </div>
+</body>
